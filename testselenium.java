@@ -9,7 +9,7 @@ public class testselenium {
 
         driver.get("https://www.google.com");
 
-        System.out.println("Page title is: " + driver.getTitle());
+        System.out.println("Page Title is: " + driver.getTitle());
 
         driver.quit();
     }
